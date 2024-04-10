@@ -36,7 +36,6 @@ class Alumno {
 
 class Materia {
     - String nombre
-    - Int duracion
     - List<Materia> materias_correlativas
     + bolean esCorrelativa()
 }
